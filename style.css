@@ -22,3 +22,23 @@ p {
   line-height: 1.8;
   color: #555;
 }
+
+/* スマホ用 */
+@media (max-width: 600px) {
+  .container {
+    margin: 20px 10px;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .main-image {
+    max-width: 100%;
+  }
+}
